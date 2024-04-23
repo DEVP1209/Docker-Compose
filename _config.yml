@@ -1,1 +1,53 @@
-my site
+# Site settings
+title: My Minimal Jekyll Site
+description: A minimalistic Jekyll theme
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+theme: Jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE.txt
+
+# Navigation links
+nav_links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Blog
+    url: /blog
+
+# Social media links
+social_links:
+  - title: GitHub
+    url: https://github.com/yourusername
+  - title: Twitter
+    url: https://twitter.com/yourusername
+
+# Customize the theme
+# Uncomment and modify the following lines as needed
+# colors:
+#   primary: "#007bff"
+#   secondary: "#6c757d"
+#   success: "#28a745"
+#   info: "#17a2b8"
+#   warning: "#ffc107"
+#   danger: "#dc3545"
+#   light: "#f8f9fa"
+#   dark: "#343a40"
+# font:
+#   family: "Arial, sans-serif"
+#   size: 16px
+#   weight: 400
