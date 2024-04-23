@@ -8,7 +8,7 @@ Create any three-tier application using Docker, using a multi-container setup. B
 1. Get a sample 3-tier project. <br>
 Here, I have cloned this MERN stack project from github.
 ``` https://github.com/samaronybarros/movies-app ```
-![image info](./ss/1.png)
+![image info](./Screenshots/1.png)
 
 2. After cloning, we have to create two separate ``` Dockerfile ``` for each ``` client ``` & ``` server ```. <br>
 We wil use ``` docker compose ``` to create a multi-container setup.
